@@ -1,0 +1,20 @@
+{
+  "name": "trading-ai-api",
+  "version": "1.0.0",
+  "description": "API de trading con inteligencia artificial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "dotenv": "^8.2.0",
+    "brain.js": "^1.0.0-beta.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.0",
+    "supertest": "^6.0.1"
+  }
+}
